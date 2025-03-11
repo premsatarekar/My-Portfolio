@@ -80,7 +80,7 @@ const Contact = () => {
           <motion.input
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ delay: 1.1, duration: 0.6 }}
+          transition={{ delay: 1.01, duration: 0.6 }}
             type="text"
             placeholder="Enter your name"
             className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90"
@@ -90,7 +90,7 @@ const Contact = () => {
           <motion.input
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ delay: 1.2, duration: 0.6 }}
+          transition={{ delay: 1.02, duration: 0.6 }}
             type="email"
             placeholder="Enter your email"
             className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90"
@@ -109,7 +109,7 @@ const Contact = () => {
           required
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.3, duration: 0.6 }}
+          transition={{ delay: 1.03, duration: 0.6 }}
         ></motion.textarea>
 
         {/* Submit Button */}
