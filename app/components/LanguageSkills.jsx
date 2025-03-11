@@ -82,7 +82,7 @@ const skillsData = [
     title: "Bootstrap",
     description:
       "A powerful CSS framework for responsive design and rapid UI development.",
-    image: "/skillsicons/bootstrap.svg",
+    image: "/skillsicons/Bootstrap.svg",
     percentage: 95,
   },
   {
@@ -113,7 +113,7 @@ const skillsData = [
     title: "GitHub",
     description:
       "A collaborative platform for version control and project management using Git.",
-    image: "/skillsicons/github.svg",
+    image: "/skillsicons/GitHub.svg",
     percentage: 95,
   },
   {
@@ -132,6 +132,14 @@ const skillsData = [
     image: "/skillsicons/cpp.svg",
     percentage: 85,
   },
+  {
+    "id": 18,
+    "title": "C#",
+    "description": "A modern, object-oriented programming language developed by Microsoft for building applications on the .NET framework.",
+    "image": "/skillsicons/Csharp.svg",
+    "percentage": 80
+}
+
 ];
 
 const LanguageSkills = () => {
